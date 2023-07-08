@@ -1,0 +1,41 @@
+
+:root {
+    --dark-blue-color: #506175;
+    --dark-green-color: #68A797;
+    --light-green-color: #76BFAC;
+}
+
+body {
+    background-color: #eee;
+}
+
+h2, p {
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-green-color);
+}
+
+.btn-login {
+    background-color: var(--light-green-color);
+    color: #fff;
+}
+
+.btn-login:hover {
+    background-color: var(--dark-green-color);
+    color: #fff;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--dark-green-color);
+}
+
+.facebook-color {
+    background-color: #3b5998;
+}
+
+.twitter-color {
+    background-color: #55acee;
+}
